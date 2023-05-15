@@ -10,26 +10,26 @@ export const Footer = () => {
                 <div className='col-lg-3 foott'>
                    <p className='footb'>Products</p>
                    <ul class="no-bullets">
-                    <a href="#"><li class="footy">Web Development</li></a>
-                    <a href="#"><li class="footy">Mobile App Development</li></a>
-                    <a href="#"><li class="footy">Web3</li></a>
-                    <a href="#"><li class="footy">Designs</li></a>
+                    <a href="https://gideon-dev.netlify.app/"><li class="footy">Web Development</li></a>
+                    <a href="https://gideon-dev.netlify.app/"><li class="footy">Mobile App Development</li></a>
+                    <a href="https://gideon-dev.netlify.app/"><li class="footy">Web3</li></a>
+                    <a href="https://gideon-dev.netlify.app/"><li class="footy">Designs</li></a>
                   </ul>
                 </div>
                 <div className='col-lg-3 foott'>
                    <p className='footb'>Company</p>
                    <ul class="no-bullets">
-                    <a href="#"><li class="footy">About</li></a>
-                    <a href="#"><li class="footy">Contact</li></a>
-                    <a href="#"><li class="footy">FAQs</li></a>
-                    <a href="#"><li class="footy">Blog</li></a>
+                    <a href="https://gideon-dev.netlify.app/"><li class="footy">About</li></a>
+                    <a href="https://gideon-dev.netlify.app/"><li class="footy">Contact</li></a>
+                    <a href="https://gideon-dev.netlify.app/"><li class="footy">FAQs</li></a>
+                    <a href="https://gideon-dev.netlify.app/"><li class="footy">Blog</li></a>
                   </ul>
                 </div>
                 <div className='col-lg-3 foott'>
                    <p className='footb'>Legal</p>
                    <ul class="no-bullets">
-                    <a href="#"><li class="footy">Terms</li></a>
-                    <a href="#"><li class="footy">Privacy</li></a>
+                    <a href="https://gideon-dev.netlify.app/"><li class="footy">Terms</li></a>
+                    <a href="https://gideon-dev.netlify.app/"><li class="footy">Privacy</li></a>
                   </ul>
                 </div>
                 <div className='col-lg-3 foott'>
