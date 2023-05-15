@@ -1,0 +1,24 @@
+.foots{
+    background-color: #0F5ACD;
+    color: white;
+}
+.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  .footb{
+    font-weight: 700;
+  }
+  .footy{
+    color: white;
+    /* margin-top: 15px; */
+    /* font-size: 15px; */
+  }
+  .foott{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }

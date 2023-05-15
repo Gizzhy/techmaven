@@ -1,0 +1,47 @@
+.navbar{
+    position: fixed;
+    top: 0;
+}
+.nav-back{
+    background-color: #0F5ACD;
+/* background: linear-gradient(180deg, rgba(15,90,205,1) 7%, rgba(70,136,236,1) 23%, rgba(255,255,255,1) 100%); */
+width: 100%;
+height: 70px;
+box-shadow: 0 8px 6px -6px black;
+}
+.nav-link{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-link.about {
+    /* margin-left:60px; */
+    align-items: center;
+  }
+  
+  .nav-link.service {
+    /* margin-left:60px; */
+    align-items: center;
+  }
+  .nav-link.portfolio {
+    /* margin-left:60px; */
+    align-items: center;
+  }
+.logo{
+    width: 10%;
+}
+.contact-me{
+    border: 1px white solid;
+    border-radius: 20px;
+    height: 45px;
+    font-size: 15px;
+    width: 150px;
+    background-color: transparent;
+    /* backdrop-filter: blur(5px); */
+    color: white}
+.contact-me:hover{
+    background-color: rgb(3, 37, 87);
+    color: white;
+    border: 1px white solid;
+}
