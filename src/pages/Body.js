@@ -1,4 +1,5 @@
 import "../pages/body.css"
+import {Typewriter} from 'react-simple-typewriter'
 // import { useState, useEffect } from "react"
 import employ from "../assets/images/employ.png"
 import typing from "../assets/images/typing.gif"
@@ -19,9 +20,17 @@ const Body = () => {
         <div className="container">
             <div className="row">
                 <div className="col-sm-6 headoo">
-                <p className="head-w1">
-                Tech Maven
-                </p>
+                <div className="head-w1">
+            <Typewriter
+            words={['TECH MAVEN']}
+            loop={0}
+            cursor
+            cursorStyle='|'
+            typeSpeed={60}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+      </div>
                 <p className="head-w2">
                 Join thousands of satisfied customers who trust our company to help them find the best tech talent for their projects. We connect businesses with top-notch developers who are not only highly skilled but also reliable and trustworthy.
                 </p>
@@ -108,12 +117,12 @@ const Body = () => {
 
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-sm-6">
                         <img className="img-fluid" src={typing} alt="typing" />
                     </div>
-                    <div className="col-lg-6 typing-a">
+                    <div className="col-sm-6 typing-a">
                         <p className="typing-b1">
-                   Build with Us.
+                        Build with Us.
                         </p>
                         <p className="typing-b2">
                         Lets help you get your projects from <strong>Development to Production</strong> with our efficient team of developers and experts.
@@ -134,6 +143,7 @@ const Body = () => {
             </div>
         </div>
     </div>
+    
     {/* clients */}
         <div className="clients">
             <div className="container cl-a">
