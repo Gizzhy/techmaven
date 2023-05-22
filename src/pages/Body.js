@@ -94,10 +94,10 @@ const Body = () => {
                     <p className="fourboxes3">We offer a wide range of services.</p>
                     <br />
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 lala">
                         <div className="row">
                             {wedo.map((items) => (
-                             <div className="col-lg-6" key={items.id}>
+                             <div className="col-lg-6 lala" key={items.id}>
                                  <div className="fourboxes-container"> 
                                     <div>
                                      <img className="fourboxes-img" src={items.image} alt="" />
@@ -143,7 +143,7 @@ const Body = () => {
             </div>
         </div>
     </div>
-    
+
     {/* clients */}
         <div className="clients">
             <div className="container cl-a">
@@ -166,6 +166,8 @@ const Body = () => {
 
 
     {/* clients */}
+    
+    
     </>
  )
 }

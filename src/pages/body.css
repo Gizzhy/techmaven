@@ -257,15 +257,18 @@ img {vertical-align: middle;}
 }
 
 
-
 @media screen and (max-width: 850px) {
   .head-w1{
+    margin-top: 70px;
     font-size: 40px;
     text-align: center;
     
 }
+
+
 .fourboxes-container{
-  text-align: center;
+  /* text-align: center; */
+  width: 390px;
 }
 
 .body-3{
@@ -276,5 +279,33 @@ img {vertical-align: middle;}
 }
 .typing-a{
   padding: 0;
+}
+
+.clients{
+  height: 400px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.cl-a{
+  padding:60px 0;
+  
+}
+
+.trusted{
+  font-size: 40px;
+  font-weight: bold;
+}
+.trust-img{
+  width: 40%;
+  margin-top: 20px;
+}
+.vend-img{
+  width: 50%;
+  margin-top: 20px;
+}
+
+.lala{
+  text-align: center;
 }
 }
