@@ -8,7 +8,11 @@ import typing from "../assets/images/typing.gif"
 import unboxed from "../assets/images/unboxed.png"
 import iSend from "../assets/images/iSend.svg"
 import vendlify from "../assets/images/vendlify.png"
-import  wedo from "./data/wedo.js"
+import coding from "../assets/images/coding.png"
+import creativity from "../assets/images/creativity.png"
+import cryptocurrency from "../assets/images/cryptocurrency.png"
+import engineer from "../assets/images/engineer.png"
+// import  wedo from "./data/wedo.js"
 // import { useState } from "react"
 // import { Link } from "react-router-dom";
 
@@ -86,33 +90,57 @@ const Body = () => {
 
     {/* four boxes section */}
 
-    <section id="services" data-aos="slide-up">
-                <div className="container">
-                <div className="row">
-                    <div className="col-lg-6" style={{display:"block", margin:"auto 0"}}>
-                    <h2 className="fourboxes2">WHAT WE DO</h2>
+            <section id="services">
+            <div class="container">
+            <div class="row">
+              <div class="col-md-6 what-wee">
+              <h2 className="fourboxes2">WHAT WE DO</h2>
                     <p className="fourboxes3">We offer a wide range of services.</p>
-                    <br />
-                    </div>
-                    <div className="col-lg-6 lala">
-                        <div className="row">
-                            {wedo.map((items) => (
-                             <div className="col-lg-6 lala" key={items.id}>
-                                 <div className="fourboxes-container"> 
-                                    <div>
-                                     <img className="fourboxes-img" src={items.image} alt="" />
-                                    </div>
-                                    <h5 className="fourboxes4">{items.text}</h5>
-                                    <p className="fourboxes5">{items.paragraph}</p>
-                                    <p className="fourboxes5">{items.paragraph2}</p>
-                                    <p className="fourboxes5">{items.paragraph3}</p>
-                                </div>
-                            </div>
-                         ))}
-                    </div>  
-                        </div>
-                </div>   
+              </div>
+              <div class="col-md-6">
+                
+                <div class="row">
+                  <div class="col-md-6">
+                  <div className="container fourboxes-container">
+                  <img  className="fourboxes-img" src={coding} alt="coding"/>
+                  <h5 className="fourboxes4">DEVELOPMENT</h5>
+                  <p className="fourboxes5">Responsive Web Development</p>
+                  <p className="fourboxes5">Mobile App Development (ios & Android).</p>
+                  </div>
+                  </div>
+
+                  <div class="col-md-6">
+                  <div className="container fourboxes-container">
+                  <img  className="fourboxes-img" src={creativity} alt="coding"/>
+                  <h5 className="fourboxes4">DESIGNS</h5>
+                  <p className="fourboxes5">Graphics Designs</p>
+                  <p className="fourboxes5">UI/UX Designs</p>
+                  </div>
+                  </div>
                 </div>
+                <div class="row">
+                <div class="col-md-6">
+                  <div className="container fourboxes-container">
+                  <img  className="fourboxes-img" src={engineer} alt="coding"/>
+                  <h5 className="fourboxes4">ENGINEERS</h5>
+                  <p className="fourboxes5">FrontEnd Engineers</p>
+                  <p className="fourboxes5">BackEnd Engineers</p>
+                  <p className="fourboxes5">Web3 Engineers</p>
+                  </div>
+                  </div>
+
+                    <div class="col-md-6">
+                  <div className="container fourboxes-container">
+                  <img  className="fourboxes-img" src={cryptocurrency} alt="coding"/>
+                  <h5 className="fourboxes4">CRYPTO</h5>
+                  <p className="fourboxes5">Crypto Investments</p>
+                  <p className="fourboxes5">Understanding Web3</p>
+                  </div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </div>
             </section>
 
             <div className="container">
