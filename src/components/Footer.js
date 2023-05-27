@@ -34,8 +34,10 @@ export const Footer = () => {
                 </div>
                 <div className='col-lg-3 foott'>
                    <p className=''>Lagos, Nigeria.</p>
-                   <p className=''>gideonakinlotan16@gmail.com</p>
-                   <p className=''>+234701019073</p>
+                   <ul className="no-bullets">
+                    <a href="gideonakinlotan16@gmail.com"><li className="footy">gideonakinlotan16@gmail.com</li></a>
+                    <a href="https://wa.me/+234701019073"><li className="footy">+234701019073</li></a>
+                  </ul>
                 </div>
             
             </div>
