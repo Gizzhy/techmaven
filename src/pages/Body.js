@@ -97,7 +97,7 @@ const Body = () => {
               <h2 className="fourboxes2">WHAT WE DO</h2>
                     <p className="fourboxes3">We offer a wide range of services.</p>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 areas-things">
                 
                 <div class="row">
                   <div class="col-md-6">
@@ -180,7 +180,7 @@ const Body = () => {
                         <p className="trusted">Trusted by</p>
                     </div>
                     <div className="col-sm-3">
-                    <img className="img-fluid" src={unboxed} alt="vendlify" />
+                    <img className="img-fluid unboxed-img" src={unboxed} alt="vendlify" />
                     </div>
                     <div className="col-sm-3">
                     <img className="img-fluid trust-img" src={iSend} alt="vendlify" />

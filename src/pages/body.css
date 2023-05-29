@@ -1,3 +1,27 @@
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1d3357; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4687e9; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red; 
+}
+/* scrollbar */
+
+
+
 /* slider */
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -269,7 +293,11 @@ img {vertical-align: middle;}
 }
 
 .what-wee{
+  text-align: center;
   padding: 0;
+}
+.areas-things{
+  text-align: center;
 }
 
 
@@ -289,13 +317,13 @@ img {vertical-align: middle;}
 }
 
 .clients{
-  height: 400px;
+  height: 300px;
   margin-bottom: 70px;
   text-align: center;
 }
 
 .cl-a{
-  padding:60px 0;
+  padding:35px 0;
   
 }
 
@@ -303,12 +331,15 @@ img {vertical-align: middle;}
   font-size: 40px;
   font-weight: bold;
 }
+.unboxed-img{
+  width: 20%;
+}
 .trust-img{
-  width: 40%;
+  width: 20%;
   margin-top: 20px;
 }
 .vend-img{
-  width: 50%;
+  width: 30%;
   margin-top: 20px;
 }
 
