@@ -1,39 +1,62 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+// import React from 'react'
+// import { Link } from "react-router-dom";
 import "./navbar.css"
-import logo from "../assets/images/logo.png"
+// import logo from "../assets/images/logo.png"
+import logo from "../assets/images/logo.jpg"
+import React, { useEffect } from 'react';
+import $ from 'jquery'; // Import jQuery library
+// import { Helmet } from 'react-helmet';
+// import useBootstrapNavbar from "../hooks/useBootstrapNavbar"
 
 
 export const Navbar = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        $('.navbar').addClass('scrolled');
+      } else {
+        $('.navbar').removeClass('scrolled');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
     return (
-        <div className="">
-               <nav className="navbar navbar-expand-lg nav-back navbar-fixed-top">
-        <div className="container-fluid">
-        <a className="navbar-brand" href="/#"><img className="logo" src={logo} alt="" /></a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon navbar-dark"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link about" aria-current="page" href="#about">About</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link service" aria-current="page" href="#services">Services</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link portfolio" aria-current="page" href="#portfolio">Portfolio</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link portfolio" aria-current="page" href="#portfolio">Blog</a>
-              </li>
-              </ul>
-            <li className="d-flex">
-                <Link to="#contactme" className="nav-link nav-cta"><button className="contact-me">Be in touch</button></Link>
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img className="logo" src={logo} alt="Logo"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
             </li>
-            </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Blog</a>
+            </li>
+          </ul>
+          <button class="btn btn-primary">Be in touch</button>
         </div>
-      </nav>
-</div>
-    )
-}
+      </div>
+      
+    </nav>
+    
+
+    );
+};
+
+
+export default Navbar;

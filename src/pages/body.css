@@ -16,7 +16,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: red; 
+  background: #020b1a; 
 }
 /* scrollbar */
 
@@ -37,7 +37,7 @@ img {vertical-align: middle;}
 }
 .head-1{
     background-color: #0F5ACD;
-    margin-top: 46px;
+    /* margin-top: 46px; */
 }
 .headoo{
     margin: auto;
@@ -286,7 +286,7 @@ img {vertical-align: middle;}
 
 @media screen and (max-width: 850px) {
   .head-w1{
-    margin-top: 70px;
+    /* margin-top: 70px; */
     font-size: 40px;
     text-align: center;
     

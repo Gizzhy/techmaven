@@ -1,93 +1,42 @@
-.navbar{
-    position: fixed;
-    top: 0;
+.logo{
+  width: 65px;
 }
-.nav-back{
-    background-color: #0F5ACD;
-/* background: linear-gradient(180deg, rgba(15,90,205,1) 7%, rgba(70,136,236,1) 23%, rgba(255,255,255,1) 100%); */
-width: 100%;
-height: 70px;
-box-shadow: 0 8px 6px -6px black;
+.navbar {
+  background-color: #0F5ACD;
+   transition: box-shadow 0.3s ease-in-out;
+   /* height: 100px; */
+}
+
+.navbar.scrolled {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  margin-right: auto;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
 }
 .nav-link{
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
+  color: white !important;
+  font-weight: 500;
 }
-.navbar-nav{
-  margin-left: 33%;
+
+.btn {
+  margin-left: auto;
 }
-.navbar-collapse {
-    justify-content: flex-end;
+
+@media (max-width: 767.98px) {
+  .navbar-collapse {
+    justify-content: space-between;
   }
 
-.nav-link.about {
-    /* margin-left:60px; */
-    align-items: center;
+  .nav-link {
+    text-align: center;
   }
-  
-  .nav-link.service {
-    /* margin-left:60px; */
-    align-items: center;
-  }
-  .nav-link.portfolio {
-    /* margin-left:60px; */
-    align-items: center;
-  }
-.logo{
-    width: 70px;
 }
-.contact-me{
-    border: 1px white solid;
-    border-radius: 20px;
-    height: 45px;
-    font-size: 15px;
-    width: 150px;
-    background-color: transparent;
-    /* backdrop-filter: blur(5px); */
-    color: white}
-.contact-me:hover{
-    background-color: rgb(3, 37, 87);
-    color: white;
-    border: 1px white solid;
-}
-
-@media screen and (max-width: 850px) {
-    .contact-me{
-        display: none;
-      }
-      .navbar-collapse {
-        justify-content: flex-end;
-      }
-
-      .navbar-nav{
-        margin-left: 0;
-      }
-    
-      /* .nav-link:hover{
-        color: #0F5ACD;
-        background-color: black;
-        border-radius: 8px;
-          transition: all 0.2s ease-in-out;
-      } */
-    
-      .nav-link.about {
-        margin-left: 25%;
-      }
-      
-      .nav-link.service{
-        margin-left: 25%;
-        /* -ms-transform: translate(-50%, -50%); */
-        /* transform: translate(-50%, -50%); */
-      }
-      .nav-link.portfolio{
-        margin-left: 25%;
-        /* -ms-transform: translate(-50%, -50%); */
-        /* transform: translate(-50%, -50%); */
-      }
-      .nav-back{
-        height: 120px;
-      }
-}
-
-
