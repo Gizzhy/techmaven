@@ -1,3 +1,10 @@
+a{
+color: white;
+}
+a:hover{
+  color: #0F5ACD;
+
+}
 .App {
   text-align: center;
 }

@@ -1,5 +1,5 @@
 // import React from 'react'
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./navbar.css"
 // import logo from "../assets/images/logo.png"
 import logo from "../assets/images/logo.jpg"
@@ -36,17 +36,21 @@ export const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarNav">
         <div className="nav-things">
         <ul class="navbar-nav">
-            <li class="nav-item about">
-              <a class="nav-link" href="https://techmavendev.netlify.app/">About</a>
+            <li class="nav-item nav-link">
+            <Link to="/about">About</Link>
+              
             </li>
-            <li class="nav-item servicecs">
-              <a class="nav-link" href="#services">Services</a>
+            <li class="nav-item nav-link">
+            <Link to="/services">Services</Link>
+              
             </li>
-            <li class="nav-item portfolio">
-              <a class="nav-link" href="https://techmavendev.netlify.app/">Portfolio</a>
+            <li class="nav-item nav-link">
+            <Link to="/portfolio">Portfolio</Link>
+             
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://techmavendev.netlify.app/">Blog</a>
+            <li class="nav-item nav-link">
+            <Link to="/blog">Blog</Link>
+             
             </li>
           </ul>
         </div>
