@@ -34,21 +34,24 @@ export const Navbar = () => {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
+        <div className="nav-things">
+        <ul class="navbar-nav">
+            <li class="nav-item about">
               <a class="nav-link" href="https://techmavendev.netlify.app/">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item servicecs">
               <a class="nav-link" href="#services">Services</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item portfolio">
               <a class="nav-link" href="https://techmavendev.netlify.app/">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://techmavendev.netlify.app/">Blog</a>
             </li>
           </ul>
-          <button class="btn btn-primary">Be in touch</button>
+        </div>
+          
+          <button class="in-touch">Be in touch</button>
         </div>
       </div>
       
