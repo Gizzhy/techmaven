@@ -29,27 +29,27 @@ export const Navbar = () => {
     return (
       <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="https://techmavendev.netlify.app/"><img className="logo" src={logo} alt="Logo"/></a>
+        <a class="navbar-brand" href="/"><img className="logo" src={logo} alt="Logo"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
         <div className="nav-things">
         <ul class="navbar-nav">
-            <li class="nav-item nav-link">
-            <Link to="/about">About</Link>
+            <li className="nav-item nav-link">
+            <Link className="about" to="/about">About</Link>
               
             </li>
-            <li class="nav-item nav-link">
-            <Link to="/services">Services</Link>
+            <li className="nav-item nav-link">
+            <Link className="services" to="/services">Services</Link>
               
             </li>
-            <li class="nav-item nav-link">
-            <Link to="/portfolio">Portfolio</Link>
+            <li className="nav-item nav-link">
+            <Link className="portfolio" to="/portfolio">Portfolio</Link>
              
             </li>
-            <li class="nav-item nav-link">
-            <Link to="/blog">Blog</Link>
+            <li className="nav-item nav-link">
+            <Link className="blog" to="/blog">Blog</Link>
              
             </li>
           </ul>
