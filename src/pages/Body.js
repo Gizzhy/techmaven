@@ -4,10 +4,10 @@ import { Typewriter } from "react-simple-typewriter";
 import employ from "../assets/images/employ.png";
 import typing from "../assets/images/typing.gif";
 // import creativity from "../assets/images/creativity.png"
-import haytron from "../assets/images/haytron.png"
+import haytron from "../assets/images/haytron.png";
 import unboxed from "../assets/images/unboxed.png";
 import iSend from "../assets/images/iSend.svg";
-import vendlify from "../assets/images/vendlify.png";
+// import vendlify from "../assets/images/vendlify.png";
 import coding from "../assets/images/coding.png";
 import creativity from "../assets/images/creativity.png";
 import cryptocurrency from "../assets/images/cryptocurrency.png";
@@ -177,7 +177,7 @@ const Body = () => {
             <p className="typing-b1">Build with Us.</p>
             <p className="typing-b2">
               Lets help you get your projects from{" "}
-<strong>Development to Production</strong> with our efficient team
+              <strong>Development to Production</strong> with our efficient team
               of developers and experts.
             </p>
           </div>
@@ -215,18 +215,12 @@ const Body = () => {
               <img className="img-fluid trust-img" src={iSend} alt="vendlify" />
             </div>
             <div className="">
-              <img
-                className=" hay-img"
-                src={haytron}
-                alt="vendlify"
-              />
+              <img className=" hay-img" src={haytron} alt="vendlify" />
             </div>
-           
           </div>
         </div>
       </div>
       {/* clients */}
-      
     </>
   );
 };
