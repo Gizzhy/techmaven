@@ -1,37 +1,38 @@
-.aboutus-a{
-    text-align: center;
+.aboutus-a {
+  text-align: center;
 }
-.about-w{
-    text-align: justify;
+.about-w {
+  text-align: justify;
 }
-.about-b{
-    font-weight: bold;
+.about-b {
+  font-weight: bold;
 }
-.meet-a, .meet-b-a{
-    text-align: center;
+.meet-a,
+.meet-b-a {
+  text-align: center;
 }
-.meet{
-    font-size: 50px;
-    font-weight: bold;
+.meet {
+  font-size: 50px;
+  font-weight: bold;
 }
-.meet-b{
-    /* border: 1px black solid; */
-    border: 0;
-    width: 140px;
-    height: 50px;
-    color: white;
-    border-radius: 15px;
-    background-color: #0F5ACD;
+
+.meet-b {
+  /* border: 1px black solid; */
+  border: 0;
+  width: 140px;
+  height: 50px;
+  color: white;
+  border-radius: 15px;
+  background-color: #0f5acd;
 }
-.meet-b:hover{
-    background-color: rgb(3, 37, 87);
+.meet-b:hover {
+  background-color: rgb(3, 37, 87);
 }
-.meet-a1{
-    margin-bottom: 20px;
+.meet-a1 {
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 850px) {
-    .meet{
-        font-size: 30px;
-        
-    }
+  .meet {
+    font-size: 30px;
+  }
 }
