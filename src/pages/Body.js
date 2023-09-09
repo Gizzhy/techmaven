@@ -170,10 +170,16 @@ const Body = () => {
 
       <div className="container">
         <div className="row">
-          <div className="col-sm-6" data-aos="slide-right">
+          <div
+            className="col-sm-6"
+            data-aos={window.innerWidth <= 768 ? `fade-up` : `slide-right`}
+          >
             <img className="img-fluid" src={typing} alt="typing" />
           </div>
-          <div className="col-sm-6 typing-a" data-aos="slide-left">
+          <div
+            className="col-sm-6 typing-a"
+            data-aos={window.innerWidth <= 768 ? `fade-up` : `slide-left`}
+          >
             <p className="typing-b1">Build with Us.</p>
             <p className="typing-b2">
               Lets help you get your projects from{" "}

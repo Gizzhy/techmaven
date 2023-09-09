@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
+import Notfound from "./pages/Notfound";
 import Animate from "./utils/Animate";
 import "./App.css";
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Services" element={<Services />} />
           <Route path="/Blog" element={<Blog />} />
           <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/*" element={<Notfound />} />
         </Routes>
       </Animate>
     </BrowserRouter>

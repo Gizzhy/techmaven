@@ -1,0 +1,16 @@
+.er404 {
+  text-align: center;
+}
+.error {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+@media screen and (min-width: 100px) and (max-width: 800px) {
+    .error {
+        width: 100%;
+        /* height: 500px; */
+        object-fit: cover;
+      }
+      
+}
