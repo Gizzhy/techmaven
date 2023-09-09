@@ -48,7 +48,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="">
+      <div className="" data-aos="slide-up">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-3 vis">
@@ -102,7 +102,7 @@ const Body = () => {
 
       {/* four boxes section */}
 
-      <section id="services">
+      <section id="services" data-aos="zoom-in">
         <div class="container">
           <div class="row">
             <div class="col-md-6 what-wee">
@@ -170,10 +170,10 @@ const Body = () => {
 
       <div className="container">
         <div className="row">
-          <div className="col-sm-6">
+          <div className="col-sm-6" data-aos="slide-right">
             <img className="img-fluid" src={typing} alt="typing" />
           </div>
-          <div className="col-sm-6 typing-a">
+          <div className="col-sm-6 typing-a" data-aos="slide-left">
             <p className="typing-b1">Build with Us.</p>
             <p className="typing-b2">
               Lets help you get your projects from{" "}

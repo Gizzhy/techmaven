@@ -27,6 +27,7 @@
 body {
   font-family: Verdana, sans-serif;
 }
+
 .mySlides {
   display: none;
 }
@@ -420,14 +421,14 @@ img {
   }
   .fourboxes4 {
     font-size: 15px;
-    
   }
   .areas-things {
     text-align: left;
   }
   .clients {
-    
     height: 170px;
-    
+  }
+  .what-wee {
+    padding: 300px 0;
   }
 }
