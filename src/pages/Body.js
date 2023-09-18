@@ -194,7 +194,7 @@ const Body = () => {
         <div className="row">
           <div className="col-12">
             <p className="body-3">
-              Techmaven is a Information Technology Solutions provider. We
+              Codesystic is a Information Technology Solutions provider. We
               provide cost-effective services on Mobile app Development, Ui/Ux
               Designs, Responsive Web Design, BackEnd Development, Graphics
               Designs, Crypto-Web3 insights & Investments.
