@@ -25,7 +25,7 @@ const Body = () => {
             <div className="col-sm-6 headoo">
               <div className="head-w1">
                 <Typewriter
-                  words={["TECH MAVEN"]}
+                  words={["CODESYSTIC"]}
                   loop={1}
                   cursor
                   cursorStyle="|"

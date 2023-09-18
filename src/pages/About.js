@@ -19,7 +19,7 @@ const About = () => {
         <div className="row">
           <div className="col-12">
             <p className="about-w">
-              <span className="about-b">Tech Maven</span> dolor sit amet,
+              <span className="about-b">Codesystic</span> dolor sit amet,
               consectetur adipiscing elit. Etiam volutpat, quam sed interdum
               pharetra, erat purus egestas arcu, ut aliquam augue augue ac
               ipsum. Proin at diam sed eros volutpat rhoncus. Vestibulum ante
