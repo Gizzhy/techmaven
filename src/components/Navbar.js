@@ -57,12 +57,12 @@ export const Navbar = () => {
               </li>
               <li className="nav-item nav-link">
                 <Link className="portfolio" to="/portfolio">
-                  Portfolio
+                  Our Skillset
                 </Link>
               </li>
               <li className="nav-item nav-link">
                 <Link className="blog" to="/blog">
-                  Blog
+                  Portfolio
                 </Link>
               </li>
             </ul>
