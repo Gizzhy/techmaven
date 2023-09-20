@@ -19,59 +19,114 @@ const About = () => {
         <div className="row">
           <div className="col-12">
             <p className="about-w">
-              <span className="about-b">Codesystic</span> dolor sit amet,
-              consectetur adipiscing elit. Etiam volutpat, quam sed interdum
-              pharetra, erat purus egestas arcu, ut aliquam augue augue ac
-              ipsum. Proin at diam sed eros volutpat rhoncus. Vestibulum ante
-              ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-              curae; Orci varius natoque penatibus et magnis dis parturient
-              montes, nascetur ridiculus mus. Quisque mollis mollis commodo.
-              Curabitur nibh odio, auctor ac dolor nec, tincidunt posuere purus.
-              Vestibulum in magna eu elit dignissim maximus ut eu tortor.
-              Integer auctor turpis ligula, at condimentum sem aliquet sed. Sed
-              pulvinar ac nunc ac porta. Vivamus vel magna in orci viverra
-              vehicula. Maecenas quis arcu gravida, consectetur nulla sit amet,
-              scelerisque ante. Etiam tempor ipsum egestas libero bibendum
-              congue. Nullam eu mattis nunc, eu consequat ipsum. Donec
-              convallis, magna sed maximus lobortis, nulla augue mollis neque,
-              eu faucibus tortor felis eget ligula. Integer eget orci ante.
-              Fusce non turpis eros. Aenean consequat tempus velit, at dapibus
-              turpis ornare ac. Donec finibus accumsan turpis volutpat
-              efficitur. Interdum et malesuada fames ac ante ipsum primis in
-              faucibus. Pellentesque semper sed purus eu venenatis. In porttitor
-              sit amet massa sed volutpat. Sed ac metus id sapien semper
-              fermentum nec et mauris. Praesent pretium luctus turpis eget
-              faucibus. Curabitur aliquam lectus molestie justo facilisis, nec
-              facilisis diam sollicitudin. Aliquam rutrum porta blandit. Vivamus
-              non felis at tellus maximus aliquet et in dolor. Phasellus
-              sagittis, metus ac cursus tempor, odio dolor pulvinar tortor, eu
-              ullamcorper nunc nisl vel purus. Praesent non accumsan metus, in
-              efficitur ante. In commodo magna quis nisi imperdiet, in rhoncus
-              libero venenatis. Quisque pulvinar arcu libero, eget imperdiet ex
-              cursus eget. Vivamus eget suscipit lorem. Vestibulum vitae
-              suscipit nunc, vestibulum vehicula dolor. Nam vel orci viverra,
-              faucibus tortor sit amet, suscipit est. Sed ipsum dolor, volutpat
-              et dolor dictum, eleifend aliquam augue. Ut rutrum imperdiet massa
-              eget ullamcorper. Integer venenatis libero et efficitur ultrices.
-              Cras vel nisl id massa ornare mollis non eget massa. Integer
-              aliquam eu tortor sit amet sagittis. Nunc in bibendum neque, non
-              condimentum velit. Integer lacus erat, imperdiet non dui ut,
-              feugiat condimentum libero. Sed ultricies rutrum felis nec
-              fermentum. Maecenas non hendrerit nunc. Sed mattis enim quis
-              finibus gravida. Nullam vestibulum sem purus, imperdiet aliquet
-              elit tristique a. Proin vitae sem vestibulum, ullamcorper enim in,
-              suscipit nunc. Donec egestas dapibus arcu, a dictum purus
-              tincidunt ornare. Curabitur eget posuere lorem. Nam aliquet tortor
-              lorem, sed posuere justo ultrices dictum. Vestibulum molestie
-              sapien est. Quisque rutrum egestas felis, in dictum diam fringilla
-              nec. In vitae lorem id tortor consectetur dictum suscipit sed
-              sapien. Maecenas interdum lacinia nunc quis rutrum. Maecenas
-              tellus risus, pellentesque ut gravida ut, scelerisque et mauris.
-              Nunc feugiat finibus lobortis. Etiam tincidunt tincidunt libero
-              pharetra laoreet. Suspendisse dictum commodo diam ac pretium.
-              Donec ultricies ullamcorper libero, vitae dictum lorem finibus id.
-              Proin tristique dui sit amet ligula dapibus, eu tincidunt eros
-              ornare. In sed nisl quis ipsum feugiat auctor.
+              <strong>
+                Revolutionizing Tech Solutions for a Digital World
+              </strong>
+              <br />
+              <br />
+              In an era defined by digital transformation, innovation is the key
+              to staying ahead. At Codesystic, we are your trusted partner in
+              crafting cutting-edge technology solutions that drive your
+              business forward. With a passion for innovation and a commitment
+              to excellence, we have become a trailblazer in the realm of tech
+              services, specializing in frontend and backend development, mobile
+              app development, and pioneering the world of Web3 projects.
+              <br />
+              <strong>Our Mission </strong>
+              <br />
+              Our mission is clear and concise: to empower businesses and
+              individuals to thrive in the digital age by providing top-notch
+              technology services and solutions. We believe that technology
+              should not just meet the needs of today, but anticipate and shape
+              the future.
+              <br />
+              <strong>Why Choose Us?</strong>
+              <br />
+              <ul>
+                <li>
+                  <strong>Expertise: </strong>
+                  Our team of experienced developers, designers, and tech
+                  enthusiasts are dedicated to excellence in every project.
+                  We're not just developers; we're your tech partners.
+                </li>
+                <li>
+                  <strong>Innovation: </strong>
+                  We thrive on innovation and continuously explore emerging
+                  technologies to offer you the most advanced solutions. Whether
+                  it's creating responsive websites, robust backend systems, or
+                  groundbreaking Web3 projects, we're at the forefront of
+                  technological advancements.
+                </li>
+                <li>
+                  <strong>Client-Centric Approach: </strong>
+                  Client-Centric Approach: Your success is our success. We
+                  prioritize understanding your unique requirements and work
+                  closely with you to tailor solutions that fit your vision and
+                  goals.
+                </li>
+
+                <li>
+                  <strong>Diverse Skill Set: </strong>
+                  We excel in a wide range of services, including:
+                  <ul>
+                    <li>
+                      <strong>Frontend Development: </strong>Crafting
+                      user-friendly interfaces that captivate and engage your
+                      audience.
+                    </li>
+                    <li>
+                      <strong>Backend Development: </strong>Building the
+                      backbone of your digital infrastructure for seamless
+                      functionality.
+                    </li>
+                    <li>
+                      <strong>Mobile App Development: </strong>Creating dynamic
+                      and intuitive mobile apps that elevate user experiences.
+                    </li>
+                    <li>
+                      <strong>Web3 Projects: </strong>Pioneering the
+                      decentralized future with blockchain and Web3 development,
+                      from NFT marketplaces to decentralized applications
+                      (dApps).
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Quality Assurance: </strong>
+                  Our commitment to quality is unwavering. We rigorously test
+                  and refine every project to ensure it meets the highest
+                  standards.
+                </li>
+                <li>
+                  <strong>Collaboration: </strong>
+                  We believe that collaboration is key to success. Your input
+                  and feedback are invaluable, and we work together at every
+                  stage to create solutions that surpass expectations.
+                </li>
+              </ul>
+              <br />
+              <br />
+              <strong>Our Vision</strong>
+              <br />
+              <br />
+              We envision a world where technology is a driving force for
+              positive change. Whether it's simplifying daily tasks through
+              intuitive mobile apps, enhancing online experiences with
+              responsive web designs, or pushing the boundaries of what's
+              possible with Web3 projects, we aim to make technology accessible
+              and impactful for all.
+              <br />
+              <br />
+              <strong>Join Us on the Journey</strong>
+              <br />
+              <br />
+              At Codesystic, we're more than just a tech service provider; we're
+              a team of innovators, dreamers, and problem solvers. We are
+              dedicated to transforming your ideas into reality and helping you
+              navigate the ever-evolving digital landscape. Let's embark on this
+              journey together, embracing the power of technology to create a
+              brighter future. Contact us today, and let's bring your vision to
+              life!
             </p>
           </div>
         </div>
