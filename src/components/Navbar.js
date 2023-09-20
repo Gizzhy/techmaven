@@ -57,13 +57,13 @@ export const Navbar = () => {
               </li>
               <li className="nav-item nav-link">
                 <Link className="portfolio" to="/portfolio">
-                  Our Skillset
+                  Portfolio
                 </Link>
               </li>
               <li className="nav-item nav-link">
-                <Link className="blog" to="/blog">
-                  Portfolio
-                </Link>
+                <a href="skillset-codesystic.pdf" className="blog">
+                  Skillset
+                </a>
               </li>
             </ul>
           </div>
