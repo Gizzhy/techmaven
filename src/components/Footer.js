@@ -55,11 +55,11 @@ export const Footer = () => {
           <div className="col-lg-3 foott">
             <p className="">Lagos, Nigeria.</p>
             <ul className="no-bullets">
-              <a href="hello@codesystic.dev">
+              <a href="mailto:hello@codesystic.dev">
                 <li className="footy">hello@codesystic.dev</li>
               </a>
-              <a href="https://wa.me/+234701019073">
-                <li className="footy">+234701019073</li>
+              <a href="https://wa.me/+234701019078s3">
+                <li className="footy">+2347010190783</li>
               </a>
             </ul>
           </div>
