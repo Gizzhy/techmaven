@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import "./navbar.css";
 // import logo from "../assets/images/logo.png"
-import logo from "../assets/images/logo.jpg";
+import logo1 from "../assets/images/logo1.png";
 import React, { useEffect } from "react";
 import $ from "jquery"; // Import jQuery library
 // import { Helmet } from 'react-helmet';
@@ -29,7 +29,7 @@ export const Navbar = () => {
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
-          <img className="logo" src={logo} alt="Logo" />
+          <img className="logo" src={logo1} alt="Logo" />
         </a>
         <button
           class="navbar-toggler"

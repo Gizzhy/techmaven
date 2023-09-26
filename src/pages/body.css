@@ -6,17 +6,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #1d3357;
+  background: #095c47;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #4687e9;
+  background: #09b98e;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #020b1a;
+  background: #012018;
 }
 /* scrollbar */
 
@@ -43,7 +43,7 @@ img {
   margin: auto;
 }
 .head-1 {
-  background-color: #0f5acd;
+  background-color: #0c976d;
   /* margin-top: 46px; */
 }
 .headoo {

@@ -2,7 +2,7 @@
   width: 65px;
 }
 .navbar {
-  background-color: #0f5acd;
+  background-color: #0c976d;
   transition: box-shadow 0.3s ease-in-out;
   /* height: 100px; */
 }
@@ -55,7 +55,7 @@
   border: none;
   /* background-color: transparent; */
   overflow: hidden;
-  background-color: rgba(142, 181, 240, 0.6);
+  background-color: #39d3a5;
   /* background-color: rgba(255, 255, 255, 0.5); */
   /* backdrop-filter: blur(50px) !important; */
   border-radius: 32px;
@@ -79,7 +79,7 @@
 } */
 .in-touch:hover {
   border: 1px white solid;
-  background-color: rgba(215, 232, 255, 0.6);
+  background-color: #5ae6bc;
 }
 
 @media (max-width: 767.98px) {

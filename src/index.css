@@ -1,13 +1,9 @@
 body {
   /* background-color: pink; */
   margin: 0;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Kanit", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
