@@ -79,7 +79,7 @@ img {
 }
 
 .we-do-a {
-  background-color: #0f5acd;
+  background-color: #0c976d;
   border-radius: 5px;
   color: white;
   border: 1px black solid;
@@ -89,7 +89,7 @@ img {
   height: 300px;
 }
 .we-do-a-l {
-  background-color: #0f5acd;
+  background-color: #0c976d;
   border-radius: 5px;
   color: white;
   border: 1px black solid;
@@ -206,7 +206,7 @@ img {
   /* margin-left: 20px; */
   border-radius: 7px;
   margin-bottom: 20px;
-  background-color: #0f5acd;
+  background-color: #0c976d;
   /* border-color: #000; */
 }
 
@@ -235,7 +235,7 @@ img {
 .fourboxes-container:hover {
   animation: pulse;
   animation-duration: 3s;
-  background-color: rgb(3, 37, 87);
+  background-color: #075e44;
   color: #fff;
 }
 
@@ -262,22 +262,22 @@ img {
 /* slider */
 
 .vis {
-  background-color: rgb(0, 0, 134);
+  background-color: #976D0C;
   color: white;
   text-align: center;
 }
 .mis {
-  background-color: rgb(154, 154, 255);
+  background-color: #280C97;
   color: white;
   text-align: center;
 }
 .rep {
-  background-color: rgb(250, 37, 37);
+  background-color: #970C36;
   color: white;
   text-align: center;
 }
 .his {
-  background-color: rgb(250, 127, 127);
+  background-color: #7B970C;
   color: white;
   text-align: center;
 }
