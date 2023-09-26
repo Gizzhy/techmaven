@@ -1,9 +1,8 @@
 body {
   /* background-color: pink; */
   margin: 0;
-  font-family: "Kanit", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
-
