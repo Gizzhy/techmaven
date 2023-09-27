@@ -263,22 +263,22 @@ img {
 /* slider */
 
 .vis {
-  background-color: #976D0C;
+  background-color: #976d0c;
   color: white;
   text-align: center;
 }
 .mis {
-  background-color: #280C97;
+  background-color: #280c97;
   color: white;
   text-align: center;
 }
 .rep {
-  background-color: #970C36;
+  background-color: #970c36;
   color: white;
   text-align: center;
 }
 .his {
-  background-color: #7B970C;
+  background-color: #7b970c;
   color: white;
   text-align: center;
 }
@@ -335,8 +335,14 @@ img {
     text-align: justify;
   }
 }
+@media screen and (min-width: 300px) and (max-width: 380px) {
+  .fourboxes-container {
+    /* text-align: center; */
+    width: 300px !important;
+  }
+}
 @media screen and (min-width: 300px) and (max-width: 500px) {
-  .head-w1{
+  .head-w1 {
     padding-top: 40px;
   }
   .fourboxes-container {
