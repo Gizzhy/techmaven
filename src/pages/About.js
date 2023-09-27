@@ -131,7 +131,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="row">
           <div className="col-12 meet-a">
             <p className="meet">Meet The Team</p>
@@ -144,7 +144,7 @@ const About = () => {
             <button className="meet-b">Know Us !</button>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

@@ -48,7 +48,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="" data-aos="slide-up">
+      <div className="" data-aos="">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-3 vis">

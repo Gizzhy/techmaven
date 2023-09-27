@@ -54,6 +54,7 @@ img {
   color: white;
 }
 .head-w1 {
+  color: #84ffda;
   font-weight: bold;
   font-size: 70px;
 }
@@ -335,9 +336,12 @@ img {
   }
 }
 @media screen and (min-width: 300px) and (max-width: 500px) {
+  .head-w1{
+    padding-top: 40px;
+  }
   .fourboxes-container {
     /* text-align: center; */
-    width: 300px;
+    width: 360px;
   }
   .cl-b {
     display: flex;
