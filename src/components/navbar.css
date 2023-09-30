@@ -2,7 +2,8 @@
   width: 65px;
 }
 .navbar {
-  background-color: #0c976d;
+  background-color: #13161d;
+  
   transition: box-shadow 0.3s ease-in-out;
   /* height: 100px; */
 }

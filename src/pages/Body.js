@@ -182,9 +182,9 @@ const Body = () => {
           >
             <p className="typing-b1">Build with Us.</p>
             <p className="typing-b2">
-              Lets help you get your projects from{" "}
-              <strong>Development to Production</strong> with our efficient team
-              of developers and experts.
+              Lets help you get your projects from
+              <strong> Development to Production</strong> with our efficient
+              team of developers and experts.
             </p>
           </div>
         </div>
