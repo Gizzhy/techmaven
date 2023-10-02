@@ -57,6 +57,10 @@ img {
   color: #36cea0;
   font-weight: bold;
   font-size: 70px;
+  /* animate__fadeInUp */
+
+  animation: fadeInUp;
+  animation-duration: 2s;
 }
 .head-w2 {
   font-size: 18px;
@@ -261,9 +265,8 @@ img {
   font-size: 50px;
   font-weight: 700;
 }
-.typing-b2{
+.typing-b2 {
   color: #828282;
-
 }
 
 /* On smaller screens, decrease text size */

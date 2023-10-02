@@ -1,8 +1,18 @@
 .aboutus-a {
   text-align: center;
 }
+.aboutt{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6rem;
+}
 .about-w {
+  font-size: 12.5px;
+  padding: 50px;
+  line-height: 32px;
   text-align: justify;
+}
+.imgg{
+  width: 40%;
 }
 .about-b {
   font-weight: bold;
@@ -30,6 +40,26 @@
 }
 .meet-a1 {
   margin-bottom: 20px;
+}
+.line-a{
+  margin: 50px 0;
+}
+
+.line{
+  background-color: #0c976d;
+}
+@media screen and (min-width: 300px) and (max-width: 500px)  {
+  .aboutt{
+    /* padding: 20px; */
+    border-radius: 0px;
+  }
+  .about-w {
+    font-size: 14px;
+    padding: 12px;
+    line-height: 32px;
+    text-align: justify;
+  }
+  
 }
 @media screen and (max-width: 850px) {
   .meet {

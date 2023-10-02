@@ -3,7 +3,7 @@
 }
 .navbar {
   background-color: #13161d;
-  
+
   transition: box-shadow 0.3s ease-in-out;
   /* height: 100px; */
 }
@@ -31,7 +31,7 @@
   font-weight: 500;
 }
 .nav-link:hover {
-  text-decoration: underline wavy white 3px;
+  text-decoration: underline wavy #0c976d 3px;
   /* color: white !important; */
 
   /* border: 1px black solid; */
@@ -49,7 +49,7 @@
 
 .in-touch {
   position: relative;
-  margin-left: auto;
+  margin-left: 22vw;
   width: 140px;
   height: 50px;
   /* border: 1px white solid; */
@@ -100,4 +100,11 @@
   .nav-things {
     margin-left: 0px;
   }
+}
+
+a {
+  text-decoration: none;
+}
+a:hover{
+  color: white;
 }

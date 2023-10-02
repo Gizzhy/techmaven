@@ -1,0 +1,191 @@
+/* .nav-container{ 
+    margin: 0px; 
+    box-sizing: inherit; 
+    grid-column: 1 / -1; 
+    z-index: 30; 
+    display: flex; 
+    justify-Content: space-between; 
+    align-items: center; 
+} 
+ 
+.a1{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: inherit; 
+} 
+ 
+.nav-container img{ 
+    margin: 0; 
+    padding: 0; 
+    box-Sizing: inherit; 
+    cursor: pointer; 
+    opacity: 1; 
+    transform: translate(0px, 0px); 
+} 
+ 
+.nav-list{ 
+    margin: 0; 
+    padding: 0; 
+    box-Sizing: 0; 
+    display: flex; 
+    justify-Content: space-between; 
+    align-Items: center; 
+} 
+ 
+.nav-item { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    overflow: hidden; 
+    padding-bottom: 0.6rem; 
+    display: inline-block; 
+    position: relative; 
+    margin-right: 5rem; 
+    opacity: 1; 
+    transform: translate(0px, 0px); 
+} 
+ 
+.nav-link a{ 
+    margin: 0; 
+    padding: 0; 
+    box-Sizing: inherit; 
+    text-Decoration: none; 
+    font-Size: "1.6rem"; 
+    line-Height: 18px; 
+    color: #fff; 
+} 
+ 
+.auth-btns{ 
+    margin: 0; 
+    padding: 0; 
+    box-Sizing: inherit; 
+    gap: 1rem; 
+    display: flex; 
+    flex-Direction: row; 
+    opacity: 1; 
+    transform: translate(0px, 0px); 
+} 
+ 
+.mobile-nav{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: inherit; 
+    display: none; 
+} 
+ 
+ 
+@media screen and (max-width: 768px) { 
+    .openNav { 
+        display: block; 
+    } 
+ 
+    .mobile-nav { 
+        position: fixed; 
+        top: 10rem; 
+        left: 0; 
+        background-color: var(--color-secondary); 
+        width: 100vw; 
+        height: 100vh; 
+    } 
+} */
+
+.nav-container {
+  grid-column: 1/-1;
+  /* padding: 4rem 6rem; */
+  z-index: 30;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+}
+@media only screen and (max-width: 37.5em) {
+  .nav-container {
+    padding: 1rem;
+  }
+}
+.nav-container .brand-logo {
+  cursor: pointer;
+}
+.nav-container .nav-list {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+}
+@media only screen and (max-width: 37.5em) {
+  .nav-container .nav-list {
+    display: none;
+  }
+}
+.nav-container .nav-list .nav-item {
+  list-style: none;
+}
+.nav-container .nav-list .nav-item:not(:last-child) {
+  margin-right: 5rem;
+}
+.nav-container .nav-list .nav-item a {
+  font-size: 1.6rem;
+  line-height: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+.auth-btn {
+  border-radius: 1.25rem;
+  background: rgba(111, 207, 151, 0.2);
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  align-items: center;
+  width: 6.5rem;
+  height: 3rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #219653;
+}
+
+.auth-btn2 {
+  background: #219653;
+  color: #fff;
+}
+
+.auth-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.nav-container .nav-list .nav-item__download {
+  background: rgba(111, 207, 151, 0.2);
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  padding: 1rem;
+  width: 4.2rem;
+  height: 4.2rem;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}

@@ -51,9 +51,10 @@ export const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item nav-link">
-                <Link className="services" to="/services">
+              <a href="https://gideon-dev.netlify.app/#portfolio">Services</a>
+                {/* <Link className="services" to="#services">
                   Services
-                </Link>
+                </Link> */}
               </li>
               <li className="nav-item nav-link">
                 <Link className="portfolio" to="/portfolio">
@@ -67,8 +68,9 @@ export const Navbar = () => {
               </li>
             </ul>
           </div>
-
-          <button class="in-touch">Be in touch</button>
+          <a href="/contact">
+            <button class="in-touch">Be in touch</button>
+          </a>
         </div>
       </div>
     </nav>

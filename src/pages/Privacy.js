@@ -2,16 +2,16 @@ import "../pages/about.css";
 import React from "react";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
-import aboutus from "../assets/images/aboutus.gif";
+import privacy from "../assets/images/privacy.png";
 
-const About = () => {
+const Privacy = () => {
   return (
     <div>
       <Navbar />
       <div className="container">
         <div className="row">
           <div className="col-12 aboutus-a">
-            <img className="img-fluid aboutus" src={aboutus} alt="Logo" />
+            <img className="img-fluid imgg" src={privacy} alt="Logo" />
           </div>
         </div>
       </div>
@@ -153,4 +153,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Privacy;

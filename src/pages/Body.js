@@ -23,17 +23,7 @@ const Body = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-6 headoo">
-              <div className="head-w1">
-                <Typewriter
-                  words={["CODESYSTIC"]}
-                  loop={1}
-                  cursor
-                  cursorStyle="|"
-                  typeSpeed={60}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
-                />
-              </div>
+              <div className="head-w1">CODESYSTIC</div>
               <p className="head-w2">
                 Join thousands of satisfied customers who trust our company to
                 help them find the best tech talent for their projects. We

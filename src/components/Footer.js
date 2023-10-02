@@ -10,16 +10,16 @@ export const Footer = () => {
           <div className="col-lg-3 foott">
             <p className="footb">Products</p>
             <ul className="no-bullets">
-              <a href="https://gideon-dev.netlify.app/">
+              <a href="/portfolio">
                 <li className="footy">Web Development</li>
               </a>
-              <a href="https://gideon-dev.netlify.app/">
+              <a href="/portfolio">
                 <li className="footy">Mobile App Development</li>
               </a>
-              <a href="https://gideon-dev.netlify.app/">
+              <a href="/portfolio">
                 <li className="footy">Web3</li>
               </a>
-              <a href="https://gideon-dev.netlify.app/">
+              <a href="/portfolio">
                 <li className="footy">Designs</li>
               </a>
             </ul>
@@ -27,27 +27,25 @@ export const Footer = () => {
           <div className="col-lg-3 foott">
             <p className="footb">Company</p>
             <ul className="no-bullets">
-              <a href="https://gideon-dev.netlify.app/">
+              <a href="/about">
                 <li className="footy">About</li>
               </a>
-              <a href="https://gideon-dev.netlify.app/">
+              <a href="/contact">
                 <li className="footy">Contact</li>
               </a>
               <a href="https://gideon-dev.netlify.app/">
                 <li className="footy">FAQs</li>
               </a>
-              <a href="https://gideon-dev.netlify.app/">
-                <li className="footy">Blog</li>
-              </a>
+             
             </ul>
           </div>
           <div className="col-lg-3 foott">
             <p className="footb">Legal</p>
             <ul className="no-bullets">
-              <a href="https://gideon-dev.netlify.app/">
+              <a href="/terms">
                 <li className="footy">Terms</li>
               </a>
-              <a href="https://gideon-dev.netlify.app/">
+              <a href="/privacy">
                 <li className="footy">Privacy</li>
               </a>
             </ul>
