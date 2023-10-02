@@ -1,5 +1,5 @@
 import "../pages/body.css";
-import { Typewriter } from "react-simple-typewriter";
+// import { Typewriter } from "react-simple-typewriter";
 // import { useState, useEffect } from "react"
 import employ from "../assets/images/employ.png";
 import typing from "../assets/images/typing.gif";
