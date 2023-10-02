@@ -29,12 +29,17 @@ const Contact = () => {
                   action="https://eleweeran.store/code/app.php"
                   method="POST"
                 >
-                  <input type="text" placeholder="Full Name"></input>
-                  <input type="email" placeholder="E-mail"></input>
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    name="name"
+                  ></input>
+                  <input type="email" placeholder="E-mail" name="email"></input>
                   <input
                     type="text"
                     placeholder="Message"
                     className="input-a1"
+                    name="message"
                   ></input>
                   <div className="button-a">
                     <button className="button" type="submit">

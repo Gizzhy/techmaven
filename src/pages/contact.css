@@ -140,9 +140,7 @@ input[type="email"] {
     margin-bottom: 40px;
   }
 
-  input[type="text"]:focus {
-    border: 2px pink solid;
-  }
+ 
 
   .mobile-foot {
     margin-top: 150px;
@@ -214,9 +212,7 @@ input[type="email"] {
     margin-bottom: 40px;
   }
 
-  input[type="text"]:focus {
-    border: 2px pink solid;
-  }
+ 
 
   .mobile-foot {
     margin-top: 150px;
