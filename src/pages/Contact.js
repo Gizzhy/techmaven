@@ -33,16 +33,23 @@ const Contact = () => {
                     type="text"
                     placeholder="Full Name"
                     name="name"
+                    required
                   ></input>
-                  <input type="email" placeholder="E-mail" name="email"></input>
+                  <input
+                    type="email"
+                    placeholder="E-mail"
+                    name="email"
+                    required
+                  ></input>
                   <input
                     type="text"
                     placeholder="Message"
                     className="input-a1"
                     name="message"
+                    required
                   ></input>
                   <div className="button-a">
-                    <button className="button" type="submit">
+                    <button className="button" type="submit" name="submit">
                       Submit
                     </button>
                   </div>
