@@ -7,7 +7,7 @@ export const Footer = () => {
     <div className="foots">
       <footer className="container">
         <div className="row">
-          <div className="col-lg-3 foott">
+          <div className="col-lg-4 foott">
             <p className="footb">Products</p>
             <ul className="no-bullets">
               <a href="/portfolio">
@@ -24,7 +24,7 @@ export const Footer = () => {
               </a>
             </ul>
           </div>
-          <div className="col-lg-3 foott">
+          <div className="col-lg-4 foott">
             <p className="footb">Company</p>
             <ul className="no-bullets">
               <a href="/about">
@@ -33,13 +33,11 @@ export const Footer = () => {
               <a href="/contact">
                 <li className="footy">Contact</li>
               </a>
-              <a href="https://gideon-dev.netlify.app/">
-                <li className="footy">FAQs</li>
-              </a>
+              
              
             </ul>
           </div>
-          <div className="col-lg-3 foott">
+          {/* <div className="col-lg-3 foott">
             <p className="footb">Legal</p>
             <ul className="no-bullets">
               <a href="/terms">
@@ -49,8 +47,8 @@ export const Footer = () => {
                 <li className="footy">Privacy</li>
               </a>
             </ul>
-          </div>
-          <div className="col-lg-3 foott">
+          </div> */}
+          <div className="col-lg-4 foott">
             <p className="">Lagos, Nigeria.</p>
             <ul className="no-bullets">
               <a href="mailto:hello@codesystic.dev">
