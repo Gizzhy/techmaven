@@ -51,13 +51,13 @@ export const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item nav-link">
-              <a href="https://gideon-dev.netlify.app/#portfolio">Services</a>
+                <a href="#services">Services</a>
                 {/* <Link className="services" to="#services">
                   Services
                 </Link> */}
               </li>
               <li className="nav-item nav-link">
-                <Link className="portfolio" to="/portfolio">
+                <Link className="portfolio" to="/#">
                   Portfolio
                 </Link>
               </li>
