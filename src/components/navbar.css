@@ -46,6 +46,10 @@
 .blog:hover {
   color: white;
 }
+.servv{
+  color: white;
+  cursor: pointer;
+}
 
 .in-touch {
   position: relative;
