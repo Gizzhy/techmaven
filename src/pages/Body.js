@@ -185,9 +185,7 @@ const Body = () => {
       </div>
       <div className="container">
         <div className="">
-          <p className="why-we">
-            <span className="arrow">&#8640;</span> Why We Are Better
-          </p>
+          <p className="why-we">Why We Are Better</p>
           <p className="why-we2">Here is What Makes Our Projects Unique</p>
         </div>
         <div className="why-we-a">
