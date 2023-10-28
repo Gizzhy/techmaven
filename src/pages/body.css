@@ -268,6 +268,50 @@ img {
 .typing-b2 {
   color: #828282;
 }
+.arrow {
+  font-size: 30px;
+}
+.why-we,
+.why-we2 {
+  text-align: center;
+}
+.why-we {
+  font-weight: 500;
+  font-size: 25px;
+  color: #0c976d;
+}
+.why-we2 {
+  font-weight: 700;
+  font-size: 47px;
+}
+.why-we-a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.why-we-a1 {
+  background-color: #202531;
+  height: 260px;
+  width: 320px;
+  padding: 25px;
+}
+.why-we-a1:hover {
+  box-shadow: rgba(12, 151, 109, 0.3) 0px 4px 16px,
+    rgba(12, 151, 109, 0.3) 0px 8px 24px, rgba(12, 151, 109, 0.3) 0px 16px 56px;
+}
+.why-we-img {
+  width: 20%;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+.why-we-oro0 {
+  text-align: right;
+  font-weight: 600;
+}
+.why-we-oro {
+  text-align: left;
+  color: #828282;
+}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
@@ -324,6 +368,10 @@ img {
     /* text-align: center; */
     width: 240px;
   }
+  .why-we-a {
+    display: flex;
+    flex-direction: column;
+  }
   .cl-b {
     display: flex;
     flex-direction: column;
@@ -352,20 +400,60 @@ img {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .why-we-a1 {
+    margin-bottom: 20px;
+  }
+  .why-we-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media screen and (min-width: 300px) and (max-width: 380px) {
   .fourboxes-container {
     /* text-align: center; */
     width: 300px !important;
   }
+  .why-we-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .why-we {
+    font-size: 22px;
+    color: #0c976d;
+  }
+  .why-we2 {
+    font-weight: 700;
+    font-size: 33px;
+  }
+  .why-we-a1 {
+    margin-bottom: 20px;
+  }
 }
-@media screen and (min-width: 300px) and (max-width: 500px) {
+@media screen and (min-width: 301px) and (max-width: 500px) {
   .head-w1 {
     padding-top: 40px;
   }
   .fourboxes-container {
     /* text-align: center; */
     width: 360px;
+  }
+  .why-we-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .why-we-a1 {
+    margin-bottom: 20px;
+  }
+  .why-we {
+    font-size: 22px;
+    color: #0c976d;
+  }
+  .why-we2 {
+    font-weight: 700;
+    font-size: 33px;
   }
   .cl-b {
     display: flex;

@@ -12,6 +12,10 @@ import coding from "../assets/images/coding.png";
 import creativity from "../assets/images/creativity.png";
 import cryptocurrency from "../assets/images/cryptocurrency.png";
 import engineer from "../assets/images/engineer.png";
+import project from "../assets/images/project-management.png";
+import customer from "../assets/images/customer-review.png";
+import fast from "../assets/images/fast-time.png";
+
 // import  wedo from "./data/wedo.js"
 // import { useState } from "react"
 // import { Link } from "react-router-dom";
@@ -175,6 +179,50 @@ const Body = () => {
               Lets help you get your projects from
               <strong> Development to Production</strong> with our efficient
               team of developers and experts.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="">
+          <p className="why-we">
+            <span className="arrow">&#8640;</span> Why We Are Better
+          </p>
+          <p className="why-we2">Here is What Makes Our Projects Unique</p>
+        </div>
+        <div className="why-we-a">
+          <div className="why-we-a1">
+            <img src={fast} className="why-we-img" alt="fast" />
+            <span className="why-we-oro0">Swift Delivery</span>
+
+            <br />
+
+            <p className="why-we-oro">
+              Experience the pinnacle of fast and efficient service with us.
+              We've fine-tuned our approach to ensure you receive your IT
+              solutions with lightning speed.
+            </p>
+          </div>
+          <div className="why-we-a1">
+            <img src={customer} className="why-we-img" alt="fast" />
+            <span className="why-we-oro0">Customer Satisfaction</span>
+
+            <br />
+
+            <p className="why-we-oro">
+              We pride ourselves on our unwavering dedication to providing IT
+              solutions that guarantee the highest levels of customer
+              satisfaction.
+            </p>
+          </div>
+          <div className="why-we-a1">
+            <img src={project} className="why-we-img" alt="fast" />
+            <span className="why-we-oro0">Latest Technologies</span>
+            <br />
+            <p className="why-we-oro">
+              We harness the power of cutting-edge technologies to drive your
+              success. Our approach is rooted in innovation, ensuring that we
+              always leverage the latest advancements in technology.
             </p>
           </div>
         </div>
