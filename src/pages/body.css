@@ -313,6 +313,55 @@ img {
   color: #828282;
 }
 
+.port-a {
+  margin: 0 auto;
+  width: 90%;
+  border: 2px #0c976d solid;
+  border-radius: 10px;
+  height: 270px;
+}
+.port-a1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+/* .port-img {
+  width: 90%;
+} */
+
+.travel {
+  margin: 0 20px;
+  cursor: pointer;
+  width: 40%;
+  height: 70%;
+  background-image: url("../assets/images/travel.png");
+  background-size: cover;
+  transition: background-image 0.7s ease;
+}
+.travel:hover {
+  cursor: pointer;
+  background-image: url("../assets/images/travel2.png");
+  opacity: 0.4;
+}
+.simmie {
+  cursor: pointer;
+  width: 40%;
+  height: 70%;
+  background-image: url("../assets/images/simmie.png");
+  background-size: cover;
+  transition: background-image 0.7s ease;
+}
+
+.simmie:hover {
+  cursor: pointer;
+  background-image: url("../assets/images/simmie2.png");
+  opacity: 0.4;
+}
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {
@@ -408,6 +457,28 @@ img {
     flex-direction: column;
     align-items: center;
   }
+  .port-a {
+    margin: 0 auto;
+    width: 90%;
+    border: 2px #0c976d solid;
+    border-radius: 10px;
+    height: 700px;
+  }
+  .port-a1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+  }
+  .travel,
+  .simmie {
+    margin: 20px 0px;
+    width: 95%;
+    height: 100%;
+  }
 }
 @media screen and (min-width: 300px) and (max-width: 380px) {
   .fourboxes-container {
@@ -482,6 +553,28 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     text-align: justify;
+  }
+  .port-a {
+    margin: 0 auto;
+    width: 90%;
+    border: 2px #0c976d solid;
+    border-radius: 10px;
+    height: 700px;
+  }
+  .port-a1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+  }
+  .travel,
+  .simmie {
+    margin: 20px 0px;
+    width: 95%;
+    height: 100%;
   }
 }
 

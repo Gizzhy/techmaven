@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import "./navbar.css";
 // import Hashlink from "Hashlink";
-import { HashLink } from 'react-router-hash-link';
+import { HashLink } from "react-router-hash-link";
 // import logo from "../assets/images/logo.png"
 import logo2 from "../assets/images/logo2.png";
 import React, { useEffect } from "react";
@@ -54,15 +54,18 @@ export const Navbar = () => {
               </li>
               <li className="nav-item nav-link">
                 {/* <a href="#services">Services</a> */}
-                <HashLink to="/#services" className="servv"> Services </HashLink>
+                <HashLink to="/#services" className="servv">
+                  {" "}
+                  Services{" "}
+                </HashLink>
                 {/* <Link className="services" to="#services">
                   Services
                 </Link> */}
               </li>
               <li className="nav-item nav-link">
-                <Link className="portfolio" to="/#">
+                <HashLink to="/#portfolio" className="servv">
                   Portfolio
-                </Link>
+                </HashLink>
               </li>
               <li className="nav-item nav-link">
                 <a href="skillset-codesystic.pdf" className="blog">

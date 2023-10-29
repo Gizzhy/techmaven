@@ -3,10 +3,11 @@ import "../pages/body.css";
 // import { useState, useEffect } from "react"
 import employ from "../assets/images/employ.png";
 import typing from "../assets/images/typing.gif";
+
 // import creativity from "../assets/images/creativity.png"
-import haytron from "../assets/images/haytron.png";
-import unboxed from "../assets/images/unboxed.png";
-import iSend from "../assets/images/iSend.svg";
+// import haytron from "../assets/images/haytron.png";
+// import unboxed from "../assets/images/unboxed.png";
+// import iSend from "../assets/images/iSend.svg";
 // import vendlify from "../assets/images/vendlify.png";
 import coding from "../assets/images/coding.png";
 import creativity from "../assets/images/creativity.png";
@@ -162,6 +163,22 @@ const Body = () => {
         </div>
       </section>
 
+      <section id="portfolio">
+        <div className="containefr">
+          <div className="">
+            <p className="why-we">Recent Projects</p>
+            <p className="why-we2">We Have Completed Over 100+ Projects</p>
+          </div>
+          <div className="port-a">
+            <div className="port-a1">
+              <div className="travel"></div>
+              <div className="simmie"></div>
+              <div className="travel"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div className="container">
         <div className="row">
           <div
@@ -238,9 +255,12 @@ const Body = () => {
           </div>
         </div>
       </div>
+      <div className="line-a">
+        <hr className="line" />
+      </div>
 
       {/* clients */}
-      <div className="clients">
+      {/* <div className="clients">
         <div className="container cl-a">
           <div className="cl-b">
             <div className="">
@@ -261,7 +281,7 @@ const Body = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* clients */}
     </>
   );
